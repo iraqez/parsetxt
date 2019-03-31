@@ -10,5 +10,5 @@ def toTxt(file):
     subprocess.call(['pdftotext', '-layout',  filein, fileout])
     f = open(fileout)
     f = f.read()
-    os.remove(fileout)
+    # os.remove(fileout)
     return f
