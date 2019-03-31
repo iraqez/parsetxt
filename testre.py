@@ -10,7 +10,7 @@ def zapis(s):
     kadnum = ['адастровий номер:       ', '\nОпис об’єкта', 'Кадастровий номер']
 
 
-    allParams = [reesNum, address]
+    allParams = [reesNum, address, kadnum]
 
     def ret(s, start, end, dname):
         if s.find(start) == -1:
